@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Sign In For Sohayota</title>
+
+  <style>
+    
+    body{
+      background-image: url('rocket.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+    .col-200{
+      width: 35%;
+      margin-top: 5px;
+    }
+
+  </style>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+
+ <!-- Navigation -->
+ 
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+      
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Deposits</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Loans</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Investor Relation</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><b>About Us</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Careers</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sohayota.html"><b>Sohayota</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="certification.html"><b>Certification</b></a>
+          </li>
+           
+        </ul>
+    </div>
+      
+    
+  </nav>
+
+  <div class="container">
+  <img class="img-fluid" src="logo.png" alt="logo" style="left: 400px" width="300" height="250">
+  </div>
+
+  <!--SOHAYOTA FORM -->
+
+<div class="container" style="float: right; width: 100%">
+ 
+  <form class="form-horizontal" action="/action_page.php">
+    
+    <div class="form-group">
+      <div class="row">
+      <label class="control-label col-sm-6" for="name" style="color: blue; font-size: 22px; left: 400px">নাম<span style="color: red">*</span></label>
+      <div class="col-200">
+        <input type="text" class="form-control" id="name" placeholder="নাম টাইপ করুন" name="name">
+      </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+      <label class="control-label col-sm-6" for="mobile number" style="color: blue; font-size: 22px; left: 400px">মোবাইল নাম্বার<span style="color: red">*</span></label>
+      <div class="col-200">
+        <input type="text" class="form-control" id="number" placeholder="মোবাইল নাম্বার টাইপ করুন " name="mobile number">
+      </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+      <label class="control-label col-sm-6" for="email" style="color: blue; font-size: 22px; left: 400px">ইমেইল<span style="color: red">*</span></label>
+      <div class="col-200">
+        <input type="email" class="form-control" id="email" placeholder="ইমেইল টাইপ করুন " name="email">
+      </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+      <label class="control-label col-sm-6" for="address" style="color: blue; font-size: 22px; left: 400px">ঠিকানা<span style="color: red">*</span></label>
+      <div class="col-200">
+        <input type="text" class="form-control" id="address" placeholder="ঠিকানা টাইপ করুন " name="address">
+      </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+      <label class="control-label col-sm-6" for="occupation" style="color: blue; font-size: 22px; left: 400px">পেশা<span style="color: red">*</span></label>
+
+      <div class="col-200">
+        
+        <select class="form-control" id="occupation" placeholder="পেশা টাইপ করুন" name="occupation">
+        
+        <option>Job</option>
+        <option>Housewife</option>
+        <option>Business</option>
+        <option>Student</option>
+        <option>Retired</option>
+        <option>Other</option>
+      </select>
+       
+
+      </div>
+    </div>
+    </div>
+
+    <br>
+    
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default btn-outline-primary" style="text-align: center; font-size: 20px; color: red; border: 1px solid blue; border-radius: 30px; width: 300px; padding: 20px; float: right"><b>সাইন ইন করুন</b></button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+</body>
+</html>
